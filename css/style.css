@@ -1,3 +1,32 @@
+*
+body {
+  background-image: url(https://media.newyorker.com/photos/5cbe1c19ee7eb330b45d554c/1:1/w_1999,h_1999,c_limit/Tolentino-KanyeSundayService-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 h1 {
-  background: chartreuse;
+  color: white;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size: 55px;
+}
+
+#words {
+  border: 10px;
+  font-family: 'Rock Salt', cursive;
+  font-size: 15px;
+  text-align: center;
+}
+
+button {
+  background-image: url(https://media2.giphy.com/media/3o85xGFFW31jqtDgFW/giphy.gif?cid=ecf05e47l8ohfhcwv68ujn21bm45zq2po98k34tkke9236yz&rid=giphy.gif&ct=g);
+  color: white;
+  position: fixed;
+  top: 28%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'Bangers', cursive;
+  font-size: 18px;
 }
